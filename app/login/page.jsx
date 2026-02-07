@@ -5,7 +5,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useDispatch } from "react-redux";
-import { login } from "../Redux/authslice";
+import { login } from "../redux/authslice";
 import { toast } from "react-toastify";
 import { motion, AnimatePresence } from "framer-motion";
 import { Mail, Lock, Loader2, ArrowRight, ShieldCheck } from "lucide-react";
